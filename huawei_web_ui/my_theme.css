@@ -2,4 +2,10 @@
 
 * {
     font-family: font92731 !important;
+    background: #222222;
+    color: white;
+}
+
+.logo, #footer {
+    display: none !important;
 }
