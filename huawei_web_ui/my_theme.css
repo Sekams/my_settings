@@ -1,24 +1,5 @@
-/*default version*/
-@font-face {
-	font-family: 'SFProText';
-	src: 
-		local('SF Pro Text'),
-		local('SF-Pro-Text'),
-		url('https://raw.githubusercontent.com/Sekams/my_settings/master/assets/fonts/SF-Pro-Text-Regular.otf') 
-		format('opentype');
-}
-/*bold version*/
-@font-face {
-	font-family: 'SFProText';
-	src: 
-		local('SF Pro Text Bold'),
-		local('SF-Pro-Text-Bold'),
-		url('https://raw.githubusercontent.com/Sekams/my_settings/master/assets/fonts/SF-Pro-Text-Bold.otf') 
-		format('opentype');
-	font-weight: bold;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 
 * {
-    font-family: 'SFProText', sans-serif;
-    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
 }
