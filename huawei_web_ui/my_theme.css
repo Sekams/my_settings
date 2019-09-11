@@ -1,0 +1,24 @@
+/*default version*/
+@font-face {
+	font-family: 'SFProText';
+	src: 
+		local('SF Pro Text'),
+		local('SF-Pro-Text'),
+		url('../assets/fonts/SF-Pro-Text-Regular.otf') 
+		format('opentype');
+}
+/*bold version*/
+@font-face {
+	font-family: 'SFProText';
+	src: 
+		local('SF Pro Text Bold'),
+		local('SF-Pro-Text-Bold'),
+		url('../assets/fonts/SF-Pro-Text-Bold.otf') 
+		format('opentype');
+	font-weight: bold;
+}
+
+* {
+    font-family: 'SFProText', sans-serif;
+    font-size: 50px;
+}
