@@ -3,3 +3,7 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+body, button, input, select, textarea, pre { 
+    font:12px 'Roboto', sans-serif !important; 
+}
