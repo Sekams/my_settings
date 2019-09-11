@@ -4,7 +4,7 @@
 	src: 
 		local('SF Pro Text'),
 		local('SF-Pro-Text'),
-		url('../assets/fonts/SF-Pro-Text-Regular.otf') 
+		url('https://raw.githubusercontent.com/Sekams/my_settings/master/assets/fonts/SF-Pro-Text-Regular.otf') 
 		format('opentype');
 }
 /*bold version*/
@@ -13,7 +13,7 @@
 	src: 
 		local('SF Pro Text Bold'),
 		local('SF-Pro-Text-Bold'),
-		url('../assets/fonts/SF-Pro-Text-Bold.otf') 
+		url('https://raw.githubusercontent.com/Sekams/my_settings/master/assets/fonts/SF-Pro-Text-Bold.otf') 
 		format('opentype');
 	font-weight: bold;
 }
