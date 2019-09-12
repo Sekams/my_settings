@@ -27,6 +27,23 @@
     font-size: 35px;
 }
 
+#mobile_connect_btn:before {
+    font-family: FontAwesome;
+    content:"\f0ac";
+    font-size: 35px;
+}
+
+#mobile_connect_btn.mobile_connect_btn_on, #wlan_connect_btn.wlan_connect_btn_on{
+    color: #86f325 !important;
+    border-color: #86f325 !important;
+}
+
+#wlan_connect_btn:before {
+    font-family: FontAwesome;
+    content:"\f1eb";
+    font-size: 35px;
+}
+
 .main_menu ul li a.active {
     border: 1px solid white !important;
     border-radius: 6px !important;
@@ -34,4 +51,12 @@
 
 .main_menu ul li a.active span {
     background: transparent !important;
+}
+
+#union_main_menu {
+    margin-bottom: 2em;
+}
+
+#statistics_mobile h2 {
+    padding-left: 1em;
 }
