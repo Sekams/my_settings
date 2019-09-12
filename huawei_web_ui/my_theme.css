@@ -10,3 +10,12 @@
 .logo, #footer {
     display: none !important;
 }
+
+#power_off_btn, #mobile_connect_btn, #wlan_connect_btn {
+    background: #13425e !important;
+}
+
+.main_menu ul li a.active {
+    border: 2px solid white !important;
+    border-radius: 5px !important;
+}
