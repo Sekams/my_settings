@@ -49,7 +49,7 @@
     border-radius: 6px !important;
 }
 
-.main_menu ul li a.active span {
+.main_menu ul li a.active span, li.click p {
     background: transparent !important;
 }
 
@@ -59,4 +59,14 @@
 
 #statistics_mobile h2 {
     padding-left: 1em;
+}
+
+li.click span{
+    color: #12a5d6 !important;
+    border: 1px solid #12a5d6 !important;
+    border-radius: 6px !important;
+}
+
+li.click p {
+    color: #12a5d6 !important;
 }
