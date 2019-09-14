@@ -49,7 +49,7 @@
     border-radius: 6px !important;
 }
 
-.main_menu ul li a.active span, li.click p {
+.main_menu ul li a.active span, li.click p, li.subClick, .menu_settings ul li.click ul li a, li.sub.click li, li.nosubclick a {
     background: transparent !important;
 }
 
@@ -61,12 +61,40 @@
     padding-left: 1em;
 }
 
-li.click span{
+li.click span, li.sub.click, li.nosubclick{
     color: #12a5d6 !important;
     border: 1px solid #12a5d6 !important;
     border-radius: 6px !important;
+    background: transparent !important;
 }
 
-li.click p {
+
+li.sub.click span.rootstyle, li.subClick span, li.sub.click li span, li.nosubclick span{
     color: #12a5d6 !important;
+    border: none !important;
+    border-radius: unset !important;
+}
+
+li.sub.click, li.sub.click li span {
+    color: white !important;
+}
+
+li.click p, li.sub.click li.subClick span {
+    color: #12a5d6 !important;
+}
+
+input {
+    border-radius: 5px !important;
+    padding: 2px 5px !important;
+}
+
+.selecter_select {
+    height: 28px  !important;
+    border-radius: 5px !important;
+}
+
+.ussd_general_result {
+    border-radius: 5px;
+    border: #a1a1a1 solid 1px  !important;
+    padding: 3px 16px;
 }

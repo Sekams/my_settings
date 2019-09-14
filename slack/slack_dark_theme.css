@@ -3793,7 +3793,7 @@ div.p-message_pane__foreword__description span {
     border-left: 1px solid #3c3c3c !important;
 }
 
-.p-workspace__message_pane_input, .workspace__primary_view_footer {
+.p-workspace__message_pane_input, .workspace__primary_view_footer, .CodeMirror-code {
     background: #222222;
 }
 
