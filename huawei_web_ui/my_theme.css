@@ -93,8 +93,28 @@ input {
     border-radius: 5px !important;
 }
 
-.ussd_general_result {
+.ussd_general_result, .content, .center_box, .login_box_info {
     border-radius: 5px;
-    border: #a1a1a1 solid 1px  !important;
+    border: #a1a1a1 solid 1px !important;
     padding: 3px 16px;
+}
+
+.content {
+    margin: 2em auto !important;
+    width: 922px !important;
+}
+
+.center_box {
+    width: unset !important;
+    margin: 25px auto !important;
+    padding: 2em 0 !important;
+}
+
+.login_box_info {
+    width: unset !important;
+}
+
+.main_left {
+    width: 226px !important;
+    margin: 1em 2em 1em 0 !important;
 }
