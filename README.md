@@ -1,4 +1,4 @@
-## Huawei Web UI Setup
+## Huawei Web UI Clean Dark Theme Setup
 - Download the TamperMonkey extension from [here](https://www.tampermonkey.net/)
 - Add a new TamperMonkey script with the following code:
 ```
@@ -20,3 +20,7 @@
 })();
 ```
 - Save the script and refresh your Huawei Web UI at `http://192.168.8.1/`
+
+### Notes
+Tested on web UI versions below:
+- 17.100.12.00.1322
